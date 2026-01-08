@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #f6b7c8;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* CODE GATE */
+#gate {
+  position: fixed;
+  inset: 0;
+  background: #f6b7c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.gate-box {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  width: 260px;
+}
+
+.gate-box h1 {
+  margin: 0 0 16px;
+}
+
+.gate-box input {
+  width: 100%;
+  font-size: 20px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.gate-box button {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#gateError {
+  color: red;
+  display: none;
+  margin-top: 10px;
+}
